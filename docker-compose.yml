@@ -3,7 +3,7 @@ networks:
 
 services:
   ui:
-    container_name: ui
+    container_name: test
     build:
       context: .
       dockerfile: Dockerfile
