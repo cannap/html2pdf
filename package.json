@@ -3,9 +3,18 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
+    "@types/inline-css": "^3.0.1",
     "bun-types": "latest"
+  },
+  "scripts": {
+    "dev": "bun --hot run  ./src/index.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^3.7.1",
+    "inline-css": "^4.0.2",
+    "puppeteer": "^21.3.3"
   }
 }
