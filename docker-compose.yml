@@ -2,8 +2,8 @@ networks:
   internal:
 
 services:
-  ui:
-    container_name: test
+  api:
+    container_name: API
     build:
       context: .
       dockerfile: Dockerfile
@@ -11,6 +11,3 @@ services:
       - internal
     ports:
       - 3000:3000
-
-    environment:
-      API_URL: 'http://api:8000'

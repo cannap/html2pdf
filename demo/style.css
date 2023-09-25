@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section {
+  @apply mb-4  items-stretch justify-between border-b border-black p-4;
+}
